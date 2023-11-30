@@ -1,0 +1,32 @@
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.table th {
+	text-align: center;
+}
+
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+@media screen and (min-width: 250px) {
+	h1 {
+		font-size: 0.625rem;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	h1 {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	h1 {
+		font-size: 1.875rem;
+	}
+}
+
+
