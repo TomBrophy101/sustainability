@@ -1,9 +1,10 @@
-function game() {
-	var answer = prompt("Do you care about sea life?");
-		
-		if (answer == "yes") {
-			alert("This website is for you.");
-		} else {
-			alert("This website isn't for you.");
-		}
+//function is to sign into website
+function signIn() {
+	var email = /[^\s@]+@[^\s@]+\.[^\s@]+/;
+	var pwd = document.getElementById("pwd").value;
+	if ( email.test(input)) {
+		return 1;
+	} else {
+		return -1;
+	}
 }
