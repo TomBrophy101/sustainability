@@ -39,13 +39,13 @@
 			<!-- This is the second header -->
 			<div class="position-relative">
 				<div class="position-absolute top-0 start-50 translate-middle">
-					<h2>Header</h2>
+					<h2>What is this website?</h2>
 				</div>
 				<br>
 			</div>
 			<!-- This is the first paragraph -->
 			<div class="row">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>The purpose of this website is to highlight the sustainability of ocean life. This will touch on the many different kinds of beautiful sea animals that are part of the ocean. It also highlights the issues that plague these creatures. It also includes a sign in sector if you want to sign up and help the cause. Finally, it includes a game that will test your knowledge about how much you know about sea life and ocean animals in general. We also have two separate pages that will show you two pages about the game.</p>
 			</div>
 			<!-- This is the table -->
 			<div class="row">
@@ -55,7 +55,7 @@
 					<table class="table table-bordered table-primary">
 						<thead>
 							<tr>
-								<th colspan="4" scope="col" class="text-center">Table</th>
+								<th colspan="4" scope="col" class="text-center">Different types of sea animals</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -91,7 +91,7 @@
 			<!-- This is the third header -->
 			<div class="position-relative">
 				<div class="position-absolute top-0 start-50 translate-middle">
-					<h3>Header</h3>
+					<h3>The issues that plague sea life</h3>
 				</div>
 				<br>
 			</div>
@@ -113,7 +113,7 @@
 			<!-- This is the fourth header-->
 			<div class="position-relative">
 				<div class="position-absolute top-0 start-50 translate-middle">
-					<h4>Header</h4>
+					<h4>Sign Up for the cause</h4>
 				</div>
 				<br>
 			</div>
@@ -130,6 +130,13 @@
 					<div class="mb-3">
 						<input type="password" class="form-control" placeholder="Password" aria-label="Password" size="25" required id="pwd">
 					</div>
+					<div class="mb-3">
+						<input type="text" class="form-control" placeholder="First Name" aria-label="fname" size="25" required id="fname">
+					</div>
+					<div class="mb-3">
+						<input type="text" class="form-control" placeholder="Last Name" aria-label="lname" size="25" required id="lname">
+					</div>
+					<textarea id="care" name="care" placeholder="Why do you care about animals?" cols="50"></textarea>
 					<!-- This is the first button -->
 					<div class="col-md-12 text-center">
 						<button class="btn btn-primary" type="submit" value="Sign Up" onclick="signIn()">Sign In</button>
@@ -140,7 +147,7 @@
 			<!-- This is the fifth header -->
 			<div class="position-relative">
 				<div class="position-absolute top-0 start-50 translate-middle">
-					<h5>Header</h5>
+					<h5>Knowledge game</h5>
 				</div>
 				<br>
 			</div>
@@ -150,7 +157,7 @@
 			</div>
 			<!-- This is the second button -->
 			<div class="col-md-12 text-center">
-				<button class="btn btn-primary " type="button">Button</button>
+				<button class="btn btn-primary " type="button" id="button" onclick="location.href = 'game.html';">Game</button>
 			</div>
 			<br>
 			<!-- These are the icons -->

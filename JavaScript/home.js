@@ -8,3 +8,7 @@ function signIn() {
 		return -1;
 	}
 }
+
+document.getElementById("button").onclick = function () {
+        location.href = "game.html";
+    };
