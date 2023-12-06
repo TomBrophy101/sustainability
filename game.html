@@ -8,6 +8,9 @@
 		<meta name="author" content="Tom Brophy">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Seaweed+Script&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/game.css">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="JavaScript/game.js"></script>
@@ -29,7 +32,6 @@
 				<li class="nav-item">
 					<a class="nav-link active" href="index.html">Home</a>
 				</li>
-				<br>
 				<li class="nav-item">
 					<a class="nav-link active" href="gallery.html">Gallery</a>
 				</li>
@@ -45,8 +47,25 @@
 			</div>
 			<!-- This is the paragraph -->
 			<div class="row">
-				<p>The purpose of this website is to highlight the sustainability of ocean life. This will touch on the many different kinds of beautiful sea animals that are part of the ocean. It also highlights the issues that plague these creatures. It also includes a sign in sector if you want to sign up and help the cause. Finally, it includes a game that will test your knowledge about how much you know about sea life and ocean animals in general. We also have two separate pages that will show you two pages about the game.</p>
+				<p>In this game, you will have to challenged about how much you know about sea life overall.</p>
 			</div>
+			<!-- This is the button to play the game -->
+			<div class="col-md-12 text-center">
+				<button class="btn btn-primary" type="button" value="game" onclick="showQuiz()" id="displayQuiz">Play Game</button>
+			</div>
+			<br>
+			<!-- This is the game itself -->
+			<div class="col-md-12 text-center">
+				<p id="quiz"></p>
+				<input class="form-check-input" type="radio" name="True" id="quiz">
+				<label class="form-check-label" for="quiz">True</label>
+				<input class="form-check-input" type="radio" name="False" id="quiz">
+				<label class="form-check-label" for="quiz">False</label>
+				<p id="quiz"></p>
+				<br>
+				<button class="btn btn-primary" type="button" value="results" onclick="showResults()">Show Results</button>
+			</div>
+			<br>
 			<!-- These are the icons -->
 			<div class="icons text-center">
 				<i class="fa fa-instagram"></i>

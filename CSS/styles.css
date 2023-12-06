@@ -1,42 +1,39 @@
+/* This is the body of the home page*/
 body {
 	height: 100%;
 	width: 100%;
 	background-color: cyan;
+	font-family: 'Seaweed Script', cursive;
+}
+
+a {
+	font-family: 'East Sea Dokdo', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'East Sea Dokdo', sans-serif;
+}
+
+p {
+	text-align: justify;
 }
 
 .table th {
 	text-align: center;
+	font-family: 'East Sea Dokdo', sans-serif;
 }
+
+.table {
+		border-radius: 5px;
+		width: 50%;
+		margin: 0px auto;
+		float: none;
+	}
 
 table, tr, th, td {
 	border: 1px solid black;
 }
 
-@media screen and (min-width: 250px) {
-	h1 {
-		font-size: 0.625rem;
-	}
-	h2 {
-		font-size: 0.5rem;
-	}
-}
 
-@media screen and (min-width: 500px) {
-	h1 {
-		font-size: 1.25rem;
-	}
-	h2 {
-		font-size: 1rem;
-	}
-}
-
-@media screen and (min-width: 750px) {
-	h1 {
-		font-size: 1.875rem;
-	}
-	h2 {
-		font-size: 1.5rem;
-	}
-}
 
 

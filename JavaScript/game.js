@@ -1,10 +1,13 @@
-//function is to sign into website
-function signIn() {
-	var email = /[^\s@]+@[^\s@]+\.[^\s@]+/;
-	var pwd = document.getElementById("pwd").value;
-	if ( email.test(input)) {
-		return 1;
+//function is to show the quiz
+// This will show the question.
+function showQuiz() {
+	var questions = document.getElementById("quiz");
+	if (questions.style.display === "none") {
+		questions.style.display = "block";
 	} else {
-		return -1;
+		questions.style.display = "none";
 	}
+	
+	document.getElementById("quiz").innerHTML = "An Octopus has 8 tentacles?";
+	
 }
