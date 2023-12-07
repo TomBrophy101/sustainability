@@ -3,11 +3,19 @@
 function showQuiz() {
 	var questions = document.getElementById("quiz");
 	if (questions.style.display === "none") {
-		questions.style.display = "block";
+		questions.style.display = "inline";
 	} else {
 		questions.style.display = "none";
 	}
+	//playGame();
 	
-	document.getElementById("quiz").innerHTML = "An Octopus has 8 tentacles?";
+}
+
+//function playGame() {
+	//document.getElementById("quiz").innerHTML = "An Octopus has 8 tentacles?";
+//}
+
+function showResults() {
+	document.getElementById("results").innerHTML = "Score: ";
 	
 }

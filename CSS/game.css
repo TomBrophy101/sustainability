@@ -10,10 +10,14 @@ a {
 	font-family: 'East Sea Dokdo', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
 	font-family: 'East Sea Dokdo', sans-serif;
 }
 
 p {
 	text-align: center;
+}
+
+#quiz {
+	display: none;
 }

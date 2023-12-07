@@ -13,7 +13,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Seaweed+Script&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/game.css">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="JavaScript/game.js"></script>
+		<script src="JavaScript/game.js"></script>
 		<script src="https://kit.fontawesome.com/5ab0ce990c.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
@@ -51,19 +51,19 @@
 			</div>
 			<!-- This is the button to play the game -->
 			<div class="col-md-12 text-center">
-				<button class="btn btn-primary" type="button" value="game" onclick="showQuiz()" id="displayQuiz">Play Game</button>
+				<button class="btn btn-primary" onclick="showQuiz()">Play Game</button>
 			</div>
 			<br>
 			<!-- This is the game itself -->
 			<div class="col-md-12 text-center">
-				<p id="quiz"></p>
-				<input class="form-check-input" type="radio" name="True" id="quiz">
-				<label class="form-check-label" for="quiz">True</label>
-				<input class="form-check-input" type="radio" name="False" id="quiz">
-				<label class="form-check-label" for="quiz">False</label>
-				<p id="quiz"></p>
+				<p>An octopus has 8 tentacles?</p>
+				<input class="form-check-input" type="radio" name="True">
+				<label class="form-check-label">True</label>
+				<input class="form-check-input" type="radio" name="False">
+				<label class="form-check-label">False</label>
 				<br>
-				<button class="btn btn-primary" type="button" value="results" onclick="showResults()">Show Results</button>
+				<button class="btn btn-primary" onclick="showResults()">Show Results</button>
+				<p id="results"></p>
 			</div>
 			<br>
 			<!-- These are the icons -->
