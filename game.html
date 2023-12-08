@@ -29,9 +29,11 @@
 			<br>
 			<!-- This is the nav list -->
 			<ul class="nav nav-pills nav-justified nav-underline">
+				<!-- This will bring you to the home page -->
 				<li class="nav-item">
 					<a class="nav-link active" href="index.html">Home</a>
 				</li>
+				<!-- This will bring you to the gallery page -->
 				<li class="nav-item">
 					<a class="nav-link active" href="gallery.html">Gallery</a>
 				</li>
@@ -57,10 +59,10 @@
 			<!-- This is the game itself -->
 			<div class="col-md-12 text-center">
 				<p>An octopus has 8 tentacles?</p>
-				<input class="form-check-input" type="radio" name="True">
-				<label class="form-check-label">True</label>
-				<input class="form-check-input" type="radio" name="False">
-				<label class="form-check-label">False</label>
+				<input class="form-check-input" type="radio" name="True" id="true">
+				<label class="form-check-label" for="true">True</label>
+				<input class="form-check-input" type="radio" name="False" id="false">
+				<label class="form-check-label" for="false">False</label>
 				<br>
 				<button class="btn btn-primary" onclick="showResults()">Show Results</button>
 				<p id="results"></p>

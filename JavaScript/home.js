@@ -10,6 +10,8 @@ function signIn() {
 }
 
 //this function will navigate me to a different website
-document.getElementById("button").onclick = function () {
-        location.href = "game.html";
-    };
+document.getElementById("button");
+
+function goToGame() {
+	location.href = "game.html";
+};

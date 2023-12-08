@@ -7,14 +7,10 @@ function showQuiz() {
 	} else {
 		questions.style.display = "none";
 	}
-	//playGame();
 	
 }
 
-//function playGame() {
-	//document.getElementById("quiz").innerHTML = "An Octopus has 8 tentacles?";
-//}
-
+//This will show the results.
 function showResults() {
 	document.getElementById("results").innerHTML = "Score: ";
 	
